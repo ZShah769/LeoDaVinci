@@ -1,0 +1,191 @@
+/* || Fonts || */
+@font-face {
+    font-family: "leotitle";
+    src: url(../css/leofonts/Cormorant_Garamond/CormorantGaramond-Bold.ttf);
+}
+
+@font-face {
+    font-family: "leomaintext";
+    src: url(../css/leofonts/Spectral/Spectral-Medium.ttf)
+}
+
+@font-face {
+    font-family: "leoheader";
+    src: url(../css/leofonts/Cormorant_Garamond/CormorantGaramond-MediumItalic.ttf)
+}
+
+.htitle {
+    font-size: 2.5rem;
+    color: #F3CCD4;
+    margin: 0 auto;
+    font-family: "leotitle";
+}
+
+.imagetext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 7rem;
+    line-height: 2;
+    font-family: "leoheader";
+    color: #083028;
+    letter-spacing: 0.5rem;
+}
+
+.contenttitle1 {
+    font-family: "leotitle";
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 10rem 0;
+    letter-spacing: 0.1rem;
+}
+
+.maintext {
+    line-height: 2;
+    letter-spacing: 0.05rem;
+    font-family: "leomaintext";
+    font-size: 1.6rem;
+    list-style-position: inside;
+}
+
+.workscited {
+    font-size: 1.6rem;
+}
+
+figcaption {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.footwrite1 {
+    font-size: 2.5rem;
+    color: #F3CCD4;
+    margin-bottom: 1rem;
+}
+
+.footwrite2 {
+    font-size: 1.6rem;
+    color: #F3CCD4;
+    display: inline;
+}
+
+
+/* || Images || */
+
+.introimg {
+    width: 100%;
+    height: 50vh;
+}
+
+img {
+    width: 100%;
+}
+
+.imgsize {
+    margin: 0 auto;
+    width: 100%
+}
+
+
+figure {
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/* || Components || */
+
+a[href*="http"] {
+    background: url(../assets/external.svg) no-repeat 100% 0;
+    background-size: 1.6rem 1.6rem;
+    padding-right: 1.9rem
+
+}
+
+/* || General || */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+
+/* || Header || */
+
+header {
+    width: 100%;
+    background-color: #3C7A6E;
+    padding: 3rem;
+    text-align: center;
+}
+
+
+
+/* || Body || */
+
+body {
+    background-color: #F3CCD4;
+}
+
+main {
+    margin: 0 auto; 
+    width: 90%;
+    max-width: 980px;
+}
+
+article {
+    margin: 7rem 0;
+}
+
+.maincontent {
+}
+
+.introcontent {
+    position: relative;
+    margin-top: 2rem;
+}
+
+li {
+    margin: 7rem 0;
+}
+
+.content1 {
+    margin: 15rem 0;
+}
+
+
+/* || Footer || */
+
+footer {
+    width: 100%;
+    height: 8rem;
+    background-color: #083028;
+}
+
+.footcontainer {
+    width: 100%;
+    height: 100%;
+}
+
+.footcenter {
+    margin: 0 auto;
+    padding-top: 1rem;;
+    width: 50%;
+    height: 100%;
+}
+
+.flexcenter {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+}
+
